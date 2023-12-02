@@ -1,0 +1,8 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="phone">
+<g id="Path">
+<path d="M5 4.49365H9L11 9.49365L8.5 10.9937C9.57096 13.1652 11.3285 14.9227 13.5 15.9937L15 13.4937L20 15.4937V19.4937C20 20.5982 19.1046 21.4937 18 21.4937C9.92765 21.0031 3.49056 14.566 3 6.49365C3 5.38908 3.89543 4.49365 5 4.49365" stroke="#00B5C0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 4.49365H9L11 9.49365L8.5 10.9937C9.57096 13.1652 11.3285 14.9227 13.5 15.9937L15 13.4937L20 15.4937V19.4937C20 20.5982 19.1046 21.4937 18 21.4937C9.92765 21.0031 3.49056 14.566 3 6.49365C3 5.38908 3.89543 4.49365 5 4.49365" stroke="white" stroke-opacity="0.2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

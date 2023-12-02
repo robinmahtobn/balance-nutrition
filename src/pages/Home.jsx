@@ -1,10 +1,15 @@
 import { logo, banner_left, banner_right, hero } from '../assets';
 import Goals from '../components/landing/Goals';
+import Contact from '../components/landing/Contact';
+import Appoinment from '../components/landing/Appoinment';
+import Footer from '../components/landing/Footer';
+import Recipies from '../components/landing/Recipies';
+
 
 const Home = () => {
   return (
     <>
-      <nav className='container px-12 py-2 bg-white'>
+      <nav className='container px-24 py-2 bg-white'>
         <div className='flex items-center justify-center sm:justify-start'>
           <img src={logo} alt="logo" />
         </div>
@@ -120,8 +125,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      
       <Goals />
+      <Contact />
+      <Recipies />
+      <div className='bg-white p-20'>
+        <Appoinment />
+      </div>
+      <Footer />
     </>
   )
 }
