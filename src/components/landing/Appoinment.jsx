@@ -4,8 +4,8 @@ const Appoinment = () => {
     return (
         <div className="bg-[#FFFAE7] p-8 rounded">
             <div className='flex flex-col items-center justify-center mb-10'>
-                <h1 className='text-2xl text-green font-bold tracking-widest'>The first step to a healthier you starts</h1>
-                <h1 className='text-2xl text-green font-bold tracking-widest'>here.Talk to our experts now</h1>
+                <h1 className='text-2xl text-green-200 font-bold tracking-widest'>The first step to a healthier you starts</h1>
+                <h1 className='text-2xl text-green-200 font-bold tracking-widest'>here.Talk to our experts now</h1>
             </div>
             <div className='w-full flex  gap-10'>
                 {

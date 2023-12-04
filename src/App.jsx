@@ -1,9 +1,4 @@
-import { lazy } from 'react';
-import {  } from 'react-router-dom';
-
-
-// home
-const Home = lazy(()=> import('./pages/Home'));
+import Home from "./pages/Home";
 
 
 const App = () => {

@@ -11,7 +11,7 @@ const Recipies = () => {
                     <img src={recipie_img2} alt="recipie_img2" className='rounded-lg'/>
                 </div>
                 <div className='w-9/12'>
-                   <h1 className='font-bold text-green text-xl mb-2 ml-4'>Best <span className='text-yellow'>Recipes & Health Reads</span>for you.</h1>
+                   <h1 className='font-bold text-green-200 text-xl mb-2 ml-4'>Best <span className='text-yellow'>Recipes & Health Reads</span>for you.</h1>
                    <p className='text-sm leading-6'>Lorem ipsum dolor sit amet consectetur. Massa imperdiet feugiat dictumst nisl leo. Dui morbi aliquam consequat ornare dolor dui faucibus vitae id. Ultrices molestie in nunc iaculis sed dignissim et. Vel eu amet nisl donec eu mauris pharetra feugiat. </p>
                 </div>
             </div>

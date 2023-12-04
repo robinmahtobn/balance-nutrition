@@ -2,42 +2,40 @@ import { arrow, phone, email, location } from '../../assets';
 
 const Contact = () => {
     return (
-        <div className="px-12 py-12 w-full bg-contact-web bg-no-repeat bg-cover flex">
+        <div className="px-12 py-12 w-full bg-contact-web bg-no-repeat bg-cover flex items-center gap-5 justify-center">
             {/* left */}
-            <div className="w-1/2 ">
+            <div className="w-1/2">
                 <div className="bg-white m-3 p-6 rounded">
-                    <div>
-                        <h1 className="text-orange-100 text-2xl">Let's Get Started!</h1>
+                    <div className='mb-5'>
+                        <h1 className="text-orange-100 text-2xl mb-2">Let's Get Started!</h1>
                         <p className='font-bold'>Please fill this form to know more about your health.</p>
                     </div>
 
                     {/* input feild */}
                     <div>
-                        <div className='relative'>
-                            <input type="email" required className='border-0 border-b-2 px-4 w-full focus:outline-none' />
-                            <label className='absolute bottom-1 left-4'>Name</label>
+                        <div className='relative mb-7'>
+                            <input type="text" placeholder='Name' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
                         </div>
-                        <div>
-                            <input type="email" required />
-                            <label>Email</label>
+                        <div className='mb-7'>
+                            <input type="email" placeholder='Email' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
                         </div>
-                        <div>
-                            <input type="number" required />
-                            <label>Number</label>
+                        <div className='mb-7'>
+                            <input type="number" placeholder='Phone Number' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
                         </div>
-                        <div>
-                            <input type="number" required />
-                            <label>Age</label>
+                        <div className='mb-7'>
+                            <input type="number" placeholder='Age' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
                         </div>
                     </div>
+                    {/* button */}
+                    <button className='bg-green-100 w-52 py-2 text-white rounded shadow mb-2'>Click</button>
                 </div>
             </div>
             {/* right */}
             <div className="w-1/2 ">
                 <div className='flex flex-col justify-center gap-3'>
                     <div>
-                        <h1 className='text-green text-2xl'>Here is where the journey to a <span className='text-green font-bold'>Healthier you begins.</span></h1>
-                        <h1 className='text-green text-2xl'>Speak with our expert now.</h1>
+                        <h1 className='text-green-200 text-2xl'>Here is where the journey to a <span className='text-green-200 font-bold'>Healthier you begins.</span></h1>
+                        <h1 className='text-green-200 text-2xl'>Speak with our expert now.</h1>
                     </div>
 
                     <div className='w-full flex flex-col gap-4'>
@@ -53,9 +51,9 @@ const Contact = () => {
                                     <h2 className='font-bold'>Contact Us</h2>
                                     <img src={arrow} alt="arrow" className='w-5 h-5' />
                                 </div>
-                                <p className='text-sm mb-1'>Nutritionist Aayushi :  <span className='text-green font-bold text-sm'>+91 9152419847</span>
+                                <p className='text-sm mb-1'>Nutritionist Aayushi :  <span className='text-green-200 font-bold text-sm'>+91 9152419847</span>
                                 </p>
-                                <p className='text-sm'>Nutritionist Vaishnavi : <span className='text-green font-bold text-sm'>+91 9820017056</span></p>
+                                <p className='text-sm'>Nutritionist Vaishnavi : <span className='text-green-200 font-bold text-sm'>+91 9820017056</span></p>
                             </div>
                         </div>
                         {/* card 2 */}
@@ -70,8 +68,8 @@ const Contact = () => {
                                     <h2 className='font-bold'>Email Address</h2>
                                     <img src={arrow} alt="arrow" className='w-5 h-5' />
                                 </div>
-                                <p className='text-green font-bold text-sm'>info@balancenutrition.in</p>
-                                <p className='text-green font-bold text-sm'>vishalrupani@balancenutrition.in</p>
+                                <p className='text-green-200 font-bold text-sm'>info@balancenutrition.in</p>
+                                <p className='text-green-200 font-bold text-sm'>vishalrupani@balancenutrition.in</p>
                             </div>
                         </div>
                         {/* card 3 */}
@@ -89,9 +87,9 @@ const Contact = () => {
                                 <p className='text-base mb-1'>
                                     Balance Nutrition Privy CenterAshirwad Bungalow, 1st Floor,Tagore Road, Near
                                 </p>
-                                <p className='text-base'>Laxminarayan Temple, Santacruz West,Mumbai - 400054  <span className='font-bold text-green underline cursor-pointer'>Click here to view</span>
+                                <p className='text-base'>Laxminarayan Temple, Santacruz West,Mumbai - 400054  <span className='font-bold text-green-200 underline cursor-pointer'>Click here to view</span>
                                 </p>
-                                <p className='text-base text-green font-bold underline cursor-pointer'>google map</p>
+                                <p className='text-base text-green-200 font-bold underline cursor-pointer'>google map</p>
                             </div>
                         </div>
                     </div>

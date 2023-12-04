@@ -39,6 +39,12 @@ import recipie_img2 from './recipie/recipie_img2.svg';
 import recipie_img3 from './recipie/recipie_img3.svg';
 import recipie_img4 from './recipie/recipie_img4.svg';
 
+// home -> customer review
+import star from './customer-review/star.svg';
+import half_star from './customer-review/half-star.svg';
+import line from './customer-review/line.svg';
+import testimonials from './customer-review/testimonials.png';
+
 
 export {
     logo,
@@ -75,5 +81,10 @@ export {
     recipie_img1,
     recipie_img2,
     recipie_img3,
-    recipie_img4
+    recipie_img4,
+
+    star,
+    half_star,
+    line,
+    testimonials,
 }

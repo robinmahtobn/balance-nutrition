@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        green: '#066B78',
+        green: {
+          '100': '#00B5C0',
+          '200': '#066B78',
+        },
         yellow: '#FAB100',
         'gray': {
           100: '#F4F4F4',
