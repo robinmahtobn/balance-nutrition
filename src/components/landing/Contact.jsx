@@ -2,7 +2,7 @@ import { arrow, phone, email, location } from '../../assets';
 
 const Contact = () => {
     return (
-        <div className="px-12 py-12 w-full bg-contact-web bg-no-repeat bg-cover flex items-center gap-5 justify-center">
+        <div className="px-12 py-12 w-full bg-contact-web bg-no-repeat bg-cover hidden sm:flex items-center gap-5 justify-center">
             {/* left */}
             <div className="w-1/2">
                 <div className="bg-white m-3 p-6 rounded">
@@ -23,7 +23,13 @@ const Contact = () => {
                             <input type="number" placeholder='Phone Number' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
                         </div>
                         <div className='mb-7'>
-                            <input type="number" placeholder='Age' required className='border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2' />
+                            <select name="contact" id="contact" className=' border-0 border-b-2 w-full focus:outline-none placeholder:text-black text-md pb-2 pl-2'>
+                                <option value="vaiabh BN">Choose a Nutrition Expert</option>
+                                <option value="vaiabh BN">Vaiabh BN</option>
+                                <option value="vaiabh BN">Vaiabh BN</option>
+                                <option value="vaiabh BN">Vaiabh BN</option>
+                                <option value="vaiabh BN">Vaiabh BN</option>
+                            </select>
                         </div>
                     </div>
                     {/* button */}

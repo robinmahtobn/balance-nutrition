@@ -4,8 +4,9 @@ import { half_star, star, line, testimonials } from '../../assets';
 
 
 const CustomerReview = () => {
+
   return (
-    <div className="py-12 pl-12 flex items-center gap-2">
+    <div className="py-12 pl-12 hidden sm:flex items-center gap-2">
       <div className="w-1/4">
         <div>
           <h4 className='text-gray-500 text-sm'>Customer Reviews</h4>

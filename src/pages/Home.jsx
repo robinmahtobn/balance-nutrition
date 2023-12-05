@@ -105,21 +105,23 @@ const Home = () => {
               <h2 className='text-xl text-green-200'>Journey!</h2>
             </div>
 
-            <div className='flex items-center gap-4'>
+            <div className='flex items-center justify-center gap-4'>
 
               <div className='bg-[#F8F2DC] px-5 py-3 flex items-center justify-center flex-col rounded-lg'>
-                <h3 className='text-yellow font-bold text-sm text-[10px]'>50K+</h3>
+                <h3 className='text-yellow font-bold text-sm '>50K+</h3>
                 <span className='text-gray text-sm text-[9px]'>Clients Globally</span>
               </div>
 
               <div className='bg-[#F8F2DC] px-5 py-3 flex items-center justify-center flex-col rounded-lg'>
-                <h3 className='text-yellow font-bold text-[10px]'>90.3%</h3>
+                <h3 className='text-yellow font-bold text-sm'>90.3%</h3>
                 <span className='text-gray text-sm text-[9px]'>Success Rate</span>
               </div>
+
               <div className='bg-[#F8F2DC] px-5 py-3 flex items-center justify-center flex-col rounded-lg'>
-                <h3 className='text-yellow font-bold text-[10px]'>18+</h3>
-                <span className='text-gray text-[9px]'>Years Experience</span>
+                <h3 className='text-yellow font-bold text-sm'>18+</h3>
+                <span className='text-gray text-sm'>Years Experience</span>
               </div>
+
             </div>
 
           </div>
@@ -130,9 +132,10 @@ const Home = () => {
       <CustomerReview />
       <Contact />
       <Recipies />
-      <div className='bg-white p-20'>
+      <div className='bg-white px-20 py-16'>
         <Appoinment />
       </div>
+     
       <Footer />
     </>
   )
