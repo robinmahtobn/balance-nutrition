@@ -12,6 +12,17 @@ import goal1 from './home/goal/goal1.svg';
 import goal2 from './home/goal/goal2.svg';
 import goal3 from './home/goal/goal3.svg';
 import goal4 from './home/goal/goal4.svg';
+import goal5 from './home/goal/goal5.png';
+import goal6 from './home/goal/goal6.png';
+
+// home -> goal-mobile
+import goal_mobile1 from '../assets/landing/goal/goal_mobile/goal_mobile1.png';
+import goal_mobile2 from '../assets/landing/goal/goal_mobile/goal_mobile2.png';
+import goal_mobile3 from '../assets/landing/goal/goal_mobile/goal_mobile3.png';
+import goal_mobile4 from '../assets/landing/goal/goal_mobile/goal_mobile4.png';
+import goal_mobile5 from '../assets/landing/goal/goal_mobile/goal_mobile5.png';
+import goal_mobile6 from '../assets/landing/goal/goal_mobile/goal_mobile6.png';
+
 
 // home -> contact
 import arrow from './contact/arrow.svg';
@@ -60,6 +71,15 @@ export {
     goal2,
     goal3,
     goal4,
+    goal5,
+    goal6,
+
+    goal_mobile1,
+    goal_mobile2,
+    goal_mobile3,
+    goal_mobile4,
+    goal_mobile5,
+    goal_mobile6,
 
     arrow,
     email,

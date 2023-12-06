@@ -14,8 +14,10 @@ export default {
         },
         yellow: '#FAB100',
         'gray': {
+          '50':'#E4E4E4',
           100: '#F4F4F4',
           '200':'#2F313B',
+          '300':'#FAF6F6',
           500: '#909090',
         },
         'orange': {
