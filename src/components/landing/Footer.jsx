@@ -3,6 +3,7 @@ import { logo, footer_phone, mail, instagram, linkedin, youtube, facebook } from
 const Footer = () => {
     return (
         <>
+           {/* desktop view */}
             <div className="bg-footer-desktop bg-no-repeat bg-cover bg-center h-[471px] hidden sm:flex flex-col justify-between py-10 items-center ">
 
 
@@ -80,7 +81,8 @@ const Footer = () => {
                 </div>
 
             </div>
-
+           
+           {/* mobile responsive view */}
             <div className='w-full  bg-footer-mobile bg-no-repeat bg-cover  sm:hidden'>
 
                 <div className='px-5 pt-4 flex-col justify-center items-center'>
@@ -88,7 +90,7 @@ const Footer = () => {
                         <img src={logo} alt="logo" />
                     </div>
 
-                    <div className='flex items-center gap-12 mb-7'>
+                    <div className='flex gap-12 mb-7'>
                         <div>
                             <div className='mb-[14px]'>
                                 <h2 className='font-bold mb-2'>Partnership</h2>
@@ -118,7 +120,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='mb-8'>
                         <div className='flex items-center gap-2 mb-3'>
                             <img src={footer_phone} alt="footer_phone" />
                             <p className='font-bold'>
