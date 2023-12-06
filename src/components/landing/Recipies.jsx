@@ -3,6 +3,7 @@ import { recipie_img1, recipie_img2, recipie_img3, recipie_img4 } from '../../as
 const Recipies = () => {
     return (
         <>
+            {/* desktop view */}
             <div className='px-12 pt-16 hidden sm:block'>
                 <div className='flex items-end gap-5 mb-10'>
                     <div className='w-3/12'>
@@ -25,23 +26,29 @@ const Recipies = () => {
                     </div>
                 </div>
             </div>
-
-            <div className='bg-white p-5 flex  sm:hidden'>
-                <div className='flex flex-col'>
-                    <div className='flex'>
-                        <div className='grow'>
-                            <img src={recipie_img1} alt="recipie_img1" />
+            
+            {/* mobile responsive view */}
+            <div className='bg-white p-5 sm:hidden'>
+                <div className='mb-6'>
+                    <h1 className='text-2xl font-bold text-yellow text-center mb-3'><span className='text-green-300'>Best</span> Recipes & Health Reads <span className='text-green-300'>for you.</span></h1>
+                    <p className='text-center text-[#242221]'>Lorem ipsum dolor sit amet consectetur. Massa imperdiet feugiat dictumst nisl leo. </p>
+                </div>
+                <div className='flex flex-col gap-3'>
+                    <div className='w-full flex gap-2'>
+                        <div className='w-1/4  h-24 rounded overflow-hidden'>
+                            <img src={recipie_img1} alt="w-full h-full" />
                         </div>
-                        <div className='grow'>
-                            <img src={recipie_img2} alt="recipie_img2" />
+                        <div className='w-3/4 bg-slate-900 h-24 rounded overflow-hidden'>
+                          <img src={recipie_img2} alt="w-full h-full" />
                         </div>
                     </div>
-                    <div className='flex'>
-                        <div className=''>
-                            <img src={recipie_img3} alt="recipie_img3" />
+
+                    <div className='w-full flex gap-2 flex-row-reverse'>
+                        <div className='w-1/4 h-24 rounded'>
+                           <img src={recipie_img3} alt="recipie_img3" />
                         </div>
-                        <div className=''>
-                            <img src={recipie_img4} alt="recipie_img4" />
+                        <div className='w-3/4 bg-slate-900 h-24 rounded overflow-hidden'>
+                           <img src={recipie_img4} alt="recipie_img4"/>
                         </div>
                     </div>
                 </div>
