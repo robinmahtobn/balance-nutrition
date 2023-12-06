@@ -132,7 +132,7 @@ const Home = () => {
       <CustomerReview />
       <Contact />
       <Recipies />
-      <div className='bg-white px-20 py-16'>
+      <div className='sm:bg-white sm:px-20 sm:py-16'>
         <Appoinment />
       </div>
 

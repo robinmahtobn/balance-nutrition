@@ -8,7 +8,7 @@ const appoinment = [
         arrow: appoinment_arrow
     },
     {
-        title: 'Book an appointment',
+        title: 'Book appointment',
         desc: 'Schedule a call with our team at a time that works best for you',
         icons: calendra,
         arrow: appoinment_arrow
