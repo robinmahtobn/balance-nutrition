@@ -33,47 +33,34 @@ const CustomerReview = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/4">
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={3}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-            className='flex items-center'
-          >
-            <SwiperSlide>
-              <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                <div>
-                  <img src={testimonials} alt="testimonials" className='mb-3' />
-                  <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                <div>
-                  <img src={testimonials} alt="testimonials" className='mb-3' />
-                  <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                <div>
-                  <img src={testimonials} alt="testimonials" className='mb-3' />
-                  <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                <div>
-                  <img src={testimonials} alt="testimonials" className='mb-3' />
-                  <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
+        <div className="w-3/4 flex gap-4">
+          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+            <div>
+              <img src={testimonials} alt="testimonials" className='mb-3' />
+              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            </div>
+          </div>
+
+          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+            <div>
+              <img src={testimonials} alt="testimonials" className='mb-3' />
+              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            </div>
+          </div>
+
+          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+            <div>
+              <img src={testimonials} alt="testimonials" className='mb-3' />
+              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            </div>
+          </div>
+
+          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+            <div>
+              <img src={testimonials} alt="testimonials" className='mb-3' />
+              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            </div>
+          </div>
         </div>
       </div>
 
