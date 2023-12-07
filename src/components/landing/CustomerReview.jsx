@@ -1,10 +1,32 @@
+import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { half_star, star, line, testimonials } from '../../assets';
 
 
 const CustomerReview = () => {
 
+  const settings = {
+    focusOnSelect: true,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
+
+  const MobileSettings = {
+    focusOnSelect: true,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <>
+      {/* customer view */}
       <div className="py-12 pl-12 hidden sm:flex sm:items-center sm:gap-2">
         <div className="w-1/4">
           <div>
@@ -31,37 +53,43 @@ const CustomerReview = () => {
             </div>
           </div>
         </div>
-        <div className="w-3/4 flex gap-4">
-          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-            <div>
-              <img src={testimonials} alt="testimonials" className='mb-3' />
-              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-            </div>
-          </div>
 
-          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-            <div>
-              <img src={testimonials} alt="testimonials" className='mb-3' />
-              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+          <Slider {...settings}
+            className="w-3/4  overflow-hidden"
+          >
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
             </div>
-          </div>
 
-          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-            <div>
-              <img src={testimonials} alt="testimonials" className='mb-3' />
-              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
             </div>
-          </div>
 
-          <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-            <div>
-              <img src={testimonials} alt="testimonials" className='mb-3' />
-              <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
             </div>
-          </div>
+
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
+            </div>
+
+          </Slider>
         </div>
-      </div>
 
+
+      {/* mobile responsive view */}
       <div className='p-5 sm:hidden'>
         <div>
           <div className='flex flex-col items-center justify-center'>
@@ -82,7 +110,7 @@ const CustomerReview = () => {
             <h1>Join a journey of 10,000+ conscious people taking action</h1>
           </div>
 
-          <div className='flex'>
+          <Slider {...MobileSettings} className="mb-5">
 
             <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
               <div>
@@ -97,8 +125,15 @@ const CustomerReview = () => {
                 <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
               </div>
             </div>
-            
-          </div>
+
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
+            </div>
+
+          </Slider>
 
         </div>
       </div>
