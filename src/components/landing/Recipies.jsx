@@ -26,7 +26,7 @@ const Recipies = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* mobile responsive view */}
             <div className='bg-white p-5 sm:hidden'>
                 <div className='mb-6'>
@@ -35,20 +35,20 @@ const Recipies = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <div className='w-full flex gap-2'>
-                        <div className='w-1/4  h-24 rounded overflow-hidden'>
-                            <img src={recipie_img1} alt="w-full h-full" />
+                        <div className='w-1/4  h-24 rounded '>
+                            <img src="./assets/recipie/mobile_recipie1.png" className='w-full h-full'  />
                         </div>
-                        <div className='w-3/4 bg-slate-900 h-24 rounded overflow-hidden'>
-                          <img src={recipie_img2} alt="w-full h-full" />
+                        <div className='w-3/4 h-24 rounded overflow-hidden'>
+                            <img src="./assets/recipie/mobile_recipie2.png"  className='w-full' />
                         </div>
                     </div>
 
                     <div className='w-full flex gap-2 flex-row-reverse'>
                         <div className='w-1/4 h-24 rounded'>
-                           <img src={recipie_img3} alt="recipie_img3" />
+                            <img src="./assets/recipie/mobile_recipie3.png" alt="recipie_img3" className='h-full w-full rounded' />
                         </div>
-                        <div className='w-3/4 bg-slate-900 h-24 rounded overflow-hidden'>
-                           <img src={recipie_img4} alt="recipie_img4"/>
+                        <div className='w-3/4 h-24 rounded overflow-hidden'>
+                            <img src="./assets/recipie/mobile_recipie4.png" alt="recipie_img4" className='w-full rounded' />
                         </div>
                     </div>
                 </div>
