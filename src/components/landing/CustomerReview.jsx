@@ -1,5 +1,3 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
 import { half_star, star, line, testimonials } from '../../assets';
 
 
@@ -64,7 +62,7 @@ const CustomerReview = () => {
         </div>
       </div>
 
-      {/* <div className='p-5 sm:hidden'>
+      <div className='p-5 sm:hidden'>
         <div>
           <div className='flex flex-col items-center justify-center'>
             <div>
@@ -79,53 +77,31 @@ const CustomerReview = () => {
               <span className='text-gray-500 text-sm'>(4.6 stars / 2,000 reviews)</span>
             </div>
           </div>
+
           <div className='text-center text-lg font-bold text-green-200  my-6'>
             <h1>Join a journey of 10,000+ conscious people taking action</h1>
           </div>
 
-          <div>
-            <Swiper
-              spaceBetween={30}
-              slidesPerView={3}
-              onSlideChange={() => console.log('slide change')}
-              onSwiper={(swiper) => console.log(swiper)}
-            >
-              <SwiperSlide>
-                <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                  <div>
-                    <img src={testimonials} alt="testimonials" className='mb-3' />
-                    <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                  <div>
-                    <img src={testimonials} alt="testimonials" className='mb-3' />
-                    <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                  <div>
-                    <img src={testimonials} alt="testimonials" className='mb-3' />
-                    <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
-                  <div>
-                    <img src={testimonials} alt="testimonials" className='mb-3' />
-                    <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
+          <div className='flex'>
+
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
+            </div>
+
+            <div className='bg-white shadow-sm border-2 border-gray-100 rounded p-4 flex flex-col items-center justify-center'>
+              <div>
+                <img src={testimonials} alt="testimonials" className='mb-3' />
+                <h2 className='font-semibold text-base '>Suneeta Ghosh <span className='text-green-100'>lost 22.4 kg</span> weight & reverse PCOS</h2>
+              </div>
+            </div>
+            
           </div>
+
         </div>
-      </div> */}
+      </div>
     </>
   )
 }
