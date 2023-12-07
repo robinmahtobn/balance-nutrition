@@ -7,7 +7,7 @@ import Recipies from '../components/landing/Recipies';
 import CustomerReview from '../components/landing/CustomerReview';
 
 
-const Home = () => {
+const Landing = () => {
   return (
     <>
       <nav className='container px-20 py-5 bg-white'>
@@ -86,7 +86,7 @@ const Home = () => {
               </h1>
 
               <div className='mt-[-16px]'>
-                <span className='text-sm text-green-200 font-bold'>real life-changing results</span>
+                <span className='text-[10px] text-green-200 font-bold'>real life-changing results</span>
                 <span style={{
                   fontFamily: 'Bilbo Swash Caps'
                 }}
@@ -141,4 +141,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Landing;
